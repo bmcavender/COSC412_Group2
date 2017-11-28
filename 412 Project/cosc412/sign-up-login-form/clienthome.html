@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FitisBiz Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+    
+  <style>
+      
+      p{
+          font-family:'Poppins', sans-serif;
+          font-size: 150%;
+      }    
+    
+	html{
+	height:100%;
+	}
+	
+	h1, h3{
+	font-weight:bold;
+	text-shadow: 3px 3px 2px white; 
+	color: #686868;
+	font-family:'Poppins', sans-serif;
+	font-size: 400%;
+	margin-top: 1em;
+	text-align: center;
+	}
+  
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav{
+      
+	  text-align:left;
+	  padding-left:15px;
+      background: url(../images/background.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 200%;
+    }
+    
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+		height:100%;
+      }
+      .row.content {height:auto;} 
+    }
+		.container-fluid{
+		background: url(../images/opacitybackground.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 100%;
+		
+		}
+		
+		#content{
+			margin-top:5%;			
+		}
+		
+		#nav{
+			background-color:rgba(255,255,255,.825);
+			height: 96%;
+			padding-left:10px;
+		
+		}
+		
+  </style>
+</head>
+<body>
+
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    
+	<div class="col-sm-2 sidenav" style="font-family:Verdana; font-size:13px; font-weight:bold;">
+      <div id="nav" style="border-radius:4px;margin-top:20px;">
+      <p><br><a href="../healthinfo.html" style="color:#686868;">Health Information</a></p><br>
+      <p style="padding-top:5px;"><a href="..." style="color:#686868;">Search Fitness Facility</a></p><br>
+      <p style="padding-top:5px;"><a href="..." style="color:#686868;">Search Health Professional</a></p><br>	  
+      <p style="padding-top:5px;"><a href="..." style="color:#686868;">Play Game</a></p><br>
+	  <p style="padding-top:5px;"><a href="enterUser.html" style="color:#686868;">Edit Account Details</a></p><br>
+      <p style="padding-top:5px;"><a href="..//home.html" style="color:#686868;">Logout</a></p>	  
+	  <hr style="color:black;"><br></div>
+    </div>
+    <div class="col-sm-8 text-left"  style="height:100%"> 
+      <div id="content">
+        <h1>Fit Is Biz Home</h1>
+        <p style="margin-top:5%; margin-left:5%;" class="text-center">Welcome to Fit is Biz. Good Fit = Good Biz. Taking care of your fitness off the field helps you take care of your bussiness on the field! </p>
+        <p style="margin-top:5%; margin-left:5%;" class="text-center">For help please call: 410-123-4567</p>
+        <hr>
+	  
+      <h3 style="margin-top:2%;"><img src="../images/quick-links.jpg" width="250" height="142"></h3>
+	  <div id="links" style="margin-top:5%; text-align:center;">
+		<img src="../images/search.png" style="width:100px; height:100px" onClick="location.href = '...';"><img src="../images/request.png" style="width:100px; height:100px; margin-left:5%;" onClick="location.href = '../requestForm.html';"><img src="../images/reservations.png" style="width:100px; height:100px; margin-left:5%;" onClick="location.href = 'enterPin.html';"><img src="../images/view.png" style="width:100px; height:100px; margin-left:5%;" onClick="location.href = 'viewReservationsLogin.html';"><img src="../images/logout.png" style="width:100px; height:100px; margin-left:5%;" onClick="location.href = '../fitisbiz/home.html';">	
+	  </div><!-- links icons-->
+    <div class="inner contact" style="margin-top:5%;">
+                <!-- Form Area -->
+				      <p style="margin-left:15px;">Feel Free to Contact Us!</p>
+
+                <div class="contact-form">
+                    <!-- Form -->
+                    <form id="contact-us" method="get" action="mailto:gabe.grammarly1@gmail.com">
+                        <!-- Left Inputs -->
+                        <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+                            <!-- Name -->
+                            <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                            <!-- Email -->
+                            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+                            <!-- Subject -->
+                            <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                        </div><!-- End Left Inputs -->
+                        <!-- Right Inputs -->
+                        <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                            <!-- Message -->
+                            <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+                        </div><!-- End Right Inputs -->
+                        <!-- Bottom Submit -->
+                        <div class="relative fullwidth col-xs-12">
+                            <!-- Send Button -->
+                            <button type="submit" id="submit" name="submit" class="form-btn semibold">Contact Us</button> 
+                        </div><!-- End Bottom Submit -->
+                        <!-- Clear -->
+                        <div class="clear"></div>
+                    </form>
+                    <!-- Your Mail Message -->
+                    <div class="mail-message-area">
+                        <!-- Message -->
+                        <div class="alert gray-bg mail-message not-visible-message">
+                            <strong>Thank You !</strong> Your email has been delivered.
+                        </div>
+                    </div>
+                </div><!-- End Contact Form Area -->
+            </div><!-- End Inner -->
+	
+	
+	
+	</div></div>
+	<div class="col-sm-2 sidenav"  style="padding-top:20px">
+      
+	  <div class="well">
+		<div id="fb" ><div class="fb-post" data-href="https://www.facebook.com/ScheduSchool/posts/296923124097920" data-width="100" data-show-text="true"  ><blockquote cite="https://www.facebook.com/ScheduSchool/posts/296923124097920" class="fb-xfbml-parse-ignore"	><p style="font-size:12px;" >Welcome to FitisBiz! Facebook</p><a href="https://www.facebook.com/ScheduSchool/"  style="font-size:12px;" >@FitisBiz_Facebook</a> </div></div>
+    </div>
+
+	  <div class="well">
+		<div id="fb" ><div class="fb-post" data-href="https://www.facebook.com/ScheduSchool/posts/296923124097920" data-width="100" data-show-text="true"  ><blockquote cite="https://www.facebook.com/ScheduSchool/posts/296923124097920" class="fb-xfbml-parse-ignore"	><p style="font-size:12px;" >Welcome to FitisBiz! Twitter</p><a href="https://twitter.com/fitisbiz"  style="font-size:12px;" >@FitisBiz_Twitter</a> </div></div>
+    </div>
+	
+	
+	  <div class="well">
+		<div id="fb" ><div class="fb-post" data-href="https://www.facebook.com/ScheduSchool/posts/296923124097920" data-width="100" data-show-text="true"  ><blockquote cite="https://www.facebook.com/ScheduSchool/posts/296923124097920" class="fb-xfbml-parse-ignore"><p style="font-size:12px;" >Welcome to FitisBiz! Instagram</p><a href="https://www.instagram.com/fitisbiz/"  style="font-size:12px;" >@FitisBiz_Instagram</a> </div></div>
+    </div>
+  
+<!--PAYPAL DONAT-->  
+<div id="pp" style="padding-left:25px; background-color:rgba(255, 255, 255, 0.9); padding-top:30px; padding-bottom:30px; border-radius:5px;">
+<form action="https://www.paypal.com/" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="LJSA4E3VMKDWQ">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>
+
+	
+  </div>
+</div>
+</body>
+
+
+
+</html>
