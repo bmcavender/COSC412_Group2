@@ -1,7 +1,0 @@
-<GlobalDescriptions>
-  <globalObject name="Globals">
-    <entity name="Globals" alias="Globals">
-      <component type="com.pblabs.engine.components.DataComponent" name="Data"/>
-    </entity>
-  </globalObject>
-</GlobalDescriptions>
