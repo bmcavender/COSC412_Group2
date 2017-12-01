@@ -1,0 +1,85 @@
+html { 
+  background: url(../images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} /* sets the background image perfectly*/
+
+
+h1, h3{
+ text-shadow: 3px 3px 2px white; 
+ color: #686868;
+ font-family: Verdana;
+ font-size: 250%;
+ margin-top: 1em;
+ text-align: center;
+}
+h4{
+	 text-shadow: 3px 3px 2px white; 
+	color: #686868;
+	font-family: Verdana;
+	margin-top:5%;
+	text-align:center;
+}
+
+#search{
+	margin-left: auto;
+    margin-right: auto;
+	border-style: groove;
+	border-width: 2px;
+	border-bottom-color: #686868;
+	width: 80%;	
+}
+
+#register{
+	margin-top: 3%;
+	text-align:center;
+}
+
+.register {
+	padding: 7px 60px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #33aa00; /*17bf01*/
+	border-radius: 6px;
+	text-align: center;
+	font-size: 16px;
+	font-family: Verdana;
+	text-decoration:underline;
+}
+
+#schoolLogin{
+	text-align: right;
+}
+
+#reservationButton{
+	text-align:center;
+
+}
+
+.reserve{	
+	/*http://www.colorzilla.com/gradient-editor/*/
+	background: rgb(19,19,19); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(19,19,19,1) 0%, rgba(0,0,0,1) 0%, rgba(44,44,44,1) 0%, rgba(43,43,43,1) 0%, rgba(165,165,165,1) 0%, rgba(234,234,234,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(19,19,19,1) 0%,rgba(0,0,0,1) 0%,rgba(44,44,44,1) 0%,rgba(43,43,43,1) 0%,rgba(165,165,165,1) 0%,rgba(234,234,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(19,19,19,1) 0%,rgba(0,0,0,1) 0%,rgba(44,44,44,1) 0%,rgba(43,43,43,1) 0%,rgba(165,165,165,1) 0%,rgba(234,234,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131313', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+
+	padding: 7px 60px;
+    color: black; 
+	text-align: center;
+	font-size: 16px;
+	font-family: Verdana;
+	margin-top:5%;
+	text-align:center;
+	width:80%;
+}		
+
+#reservationForm{
+
+   margin-left:10%;
+   text-align: center;
+	vertical-align: middle;
+	width:80%;
+}
