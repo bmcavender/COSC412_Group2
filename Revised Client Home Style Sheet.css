@@ -1,0 +1,97 @@
+<style>
+      
+      p{
+          font-family:'Poppins', sans-serif;
+          font-size: 150%;
+      }    
+    
+	html{
+	height:100%;
+	}
+	
+	h1, h3{
+	font-weight:bold;
+	text-shadow: 3px 3px 2px white; 
+	color: #686868;
+	font-family:'Poppins', sans-serif;
+	font-size: 400%;
+	margin-top: 1em;
+	text-align: center;
+	}
+  
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav{
+      
+	  text-align:left;
+	  padding-left:15px;
+      background: url(../images/background.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 200%;
+    }
+    
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+		height:100%;
+      }
+      .row.content {height:auto;} 
+    }
+		.container-fluid{
+		background: url(../images/opacitybackground.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 100%;
+		
+		}
+		
+		#content{
+			margin-top:5%;			
+		}
+		
+		#nav{
+			background-color:rgba(255,255,255,.825);
+			height: 96%;
+			padding-left:10px;
+		
+		}
+		
+  </style>
+
+	<div class="col-sm-2 sidenav" style="font-family:Verdana; font-size:13px; font-weight:bold;">
+      <div id="nav" style="border-radius:4px;margin-top:20px;">
+      <p><br><a href="../healthinfo.html" style="color:#686868;">Health Information</a></p><br>
+      <p style="padding-top:5px;"><a href="..." style="color:#686868;">Search Fitness Facility</a></p><br>
+      <p style="padding-top:5px;"><a href="..." style="color:#686868;">Search Health Professional</a></p><br>	  
+      <p style="padding-top:5px;"><a href="..." style="color:#686868;">Play Game</a></p><br>
+	  <p style="padding-top:5px;"><a href="enterUser.html" style="color:#686868;">Edit Account Details</a></p><br>
+      <p style="padding-top:5px;"><a href="http://triton.towson.edu/~jray8/cosc412/sign-up-login-form/clientlogin.html" style="color:#686868;">Logout</a></p>	  
+	  <hr style="color:black;"><br></div>
+    </div>
+    <div class="col-sm-8 text-left"  style="height:100%"> 
+      <div id="content">
+        <h1>Fit Is Biz Home</h1>
+        <p style="margin-top:5%; margin-left:5%;" class="text-center">Welcome to Fit is Biz. Good Fit = Good Biz. Taking care of your fitness off the field helps you take care of your bussiness on the field! </p>
+        <p style="margin-top:5%; margin-left:5%;" class="text-center">For help please call: 410-123-4567</p>
+        <hr>
+	  
+      <h3 style="margin-top:2%;"><img src="../images/quick-links.jpg" width="250" height="142"></h3>
+	  <div id="links" style="margin-top:5%; text-align:center;">
+		<img src="../images/search.png" style="width:100px; height:100px" onClick="location.href = '...';"><img src="../images/request.png" style="width:100px; height:100px; margin-left:5%;" onClick="location.href = '../requestForm.html';"><img src="../images/reservations.png" style="width:100px; height:100px; margin-left:5%;" onClick="location.href = 'enterPin.html';"><img src="../images/view.png" style="width:100px; height:100px; margin-left:5%;" onClick="location.href = 'viewReservationsLogin.html';"><img src="../images/logout.png" style="width:100px; height:100px; margin-left:5%;" onClick="location.href = '../fitisbiz/home.html';">	
+	  </div><!-- links icons-->
+    <div class="inner contact" style="margin-top:5%;">
+                <!-- Form Area -->
+				      <p style="margin-left:15px;">Feel Free to Contact Us!</p>
+
+// This Style sheet allows the styling of th client home. All of the styling will be in one document and as devolpers we will be able to use this as a stadnard to manage the style charactersitcs.
+// Using the style sheet we will be able to have a normalized home page after the users succesfully logged in
+ 
